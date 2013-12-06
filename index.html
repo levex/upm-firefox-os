@@ -7,17 +7,28 @@
 	<title>Universal Password Manager</title>
 	<link href="/shared/style/headers.css" rel="stylesheet" type="text/css">
 
+	<link href="/shared/style_unstable/lists.css" rel="stylesheet" type="text/css">
+
 </head>
 
-<body role="application">
+<body id="thebody" role="application">
 	<section role="region">
 		<header>
 			<menu type="toolbar">
-				<a href="#"><span class="icon icon-add">add</span></a>
+				<a id="addBtn_index" href="add.html"><span class="icon icon-add">add</span></a>
 			</menu>
 		<h1>Passwords</h1>
 		</header>
 	</section>
+	<section role="data" data-type="list">	
+		<header>Sites</header>
+		<span id="pwds">
+			<ul>
+			<span id="pwds_list"></span>
+			</ul>
+		</span>
+	</section>
+	<script src='filler.js'></script>
 </body>
 
 </html>
