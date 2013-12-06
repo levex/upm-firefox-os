@@ -2,6 +2,7 @@
 	"name": "Universal Password Manager",
 	"version": "0.1",
 	"description": "Manage your passwords with one lightweight application",
+
 	"launch_path": "/index.html",
 	"permissions": {
 		"storage": {
@@ -10,8 +11,8 @@
 	},
 	"developer": {
 		"name": "Levente Kurusa",
-		"url": "http://ilevex.eu/",
-	}
+		"url": "http://ilevex.eu/"
+	},
 	"icons": {
 		"60": "/style/icons/icon_60.png"
 	}
